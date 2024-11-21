@@ -1,0 +1,30 @@
+/* styles.css */
+
+/* Contenedor principal que ocupa toda la altura de la pantalla */
+.full-height-container {
+    min-height: 100vh; /* 100% de la altura de la ventana */
+    display: flex; /* Flexbox para centrar el contenido */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
+
+.form-container {
+    max-width: 600px;
+    width: 100%; /* Asegura que el formulario no se salga del contenedor */
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Estilos para igualar el tamaño de los campos de texto y el botón */
+.custom-input,
+.custom-btn {
+    width: 90%; /* Ancho del 90% */
+    margin: 0 auto; /* Centrado horizontal */
+    display: block;
+}
+
+/* Color personalizado para el botón */
+.custom-btn {
+    background-color: rgb(224, 189, 15);
+}
